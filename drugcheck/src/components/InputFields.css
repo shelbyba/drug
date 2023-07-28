@@ -1,0 +1,86 @@
+
+.input-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    color: #81a1c4;
+    margin-bottom: 20px; 
+  }
+  
+  input {
+    width: 200px;
+    margin-bottom: 10px; 
+    padding: 12px;
+  }
+  
+  button {
+    background-color: #252763; 
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease; 
+    width:100px;
+  }
+  
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .drug-check-btn {
+    display: block;
+    background-color:#252763; 
+    color: #fff;
+    padding: 18px 36px;
+    font-size: 24px; 
+    border: none;
+    cursor: pointer;
+    margin: 20px auto; 
+    border-radius: 10px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease; 
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  
+  .drug-check-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .answer-container {
+    flex: 1; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 40px;
+    margin-right: 20px; 
+    text-align: left; 
+    max-width: 950px; 
+    max-height: 400px; 
+    overflow-y: auto; 
+  }
+  
+  .answer-container pre {
+    white-space: normal; 
+    word-break: break-all; 
+  }
+  
+  
+  .answer-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%; 
+  }
+  

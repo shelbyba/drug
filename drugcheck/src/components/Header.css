@@ -1,0 +1,21 @@
+
+/* Header.css */
+header {
+    background-color: #33cacd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* */
+    border-radius: 10px; /* */
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    color: #9fcdd8;
+    font-family: 'Brush Script MT', cursive;
+  }
+  
